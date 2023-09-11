@@ -7,7 +7,7 @@ for i in range(100):
     print(device)
 
     # Define matrix sizes for the multiplication
-    matrix_size = 100
+    matrix_size = 10000
     a = torch.randn(matrix_size, matrix_size).to(device)
     b = torch.randn(matrix_size, matrix_size).to(device)
 
